@@ -1,8 +1,13 @@
 {
-  "555": {
+    "id": 87666264,
+    "name": "Extremegeist",
+    "author": "Vortrox",
+    "creators": ["Vortrox, RobTop"],
+    "verifier": "Jellythecoolestguy",
+    "verification": "https://youtu.be/_VxzI5HmmrI",
+    "showcase": "https://www.youtube.com/watch?v=0Yuyr5Vz9s0",
     "percentToQualify": 66,
-    "records": [],
-    "verifier": {
-      "verification": "https://www.youtube.com/watch?v=KDjwz-Lt-Qo",
-      "verifier": "Insane"
-    }
+    "password": "Free Copy",
+    "records": [
+    ]
+}
