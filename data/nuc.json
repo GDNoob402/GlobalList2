@@ -1,0 +1,27 @@
+{
+    "id": 144798374,
+    "name": "nuc",
+    "author": "Sandwichv1",
+    "creators": [1],
+    "verifier": "Sandwich",
+    "verification": "https://youtu.be/n1eGlzOf6lw",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "enjoyment": "5.533s",
+     "transition": true,
+    "records": [
+ {
+            "user": "walplep",
+            "link": "https://youtu.be/7x9gu-2Dag0",
+            "percent": 100,
+            "hz": 0
+        },
+        {
+            "user": "PaulineYT1933",
+            "link": "https://www.youtube.com/watch?is=vOOVQMuVF1h44RPa&v=TEKA-WLnTIg&feature=youtu.be",
+            "percent": 100,
+            "hz": 0
+        }
+    ]
+}
+    

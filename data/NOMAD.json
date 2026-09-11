@@ -1,0 +1,19 @@
+{
+    "id": 144223690,
+    "name": "N O M A D",
+    "author": "Derpy",
+    "creators": [1],
+    "verifier": "random",
+    "verification": "https://youtu.be/YhM_AsyvuwI?si=gjdYAQ1f2V9BtJb7",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "enjoyment": "9.022s",
+    "records": [
+                 {
+            "user": "Sandwich",
+            "link": "https://www.youtube.com/watch?v=9FvKPJq1jp4&t=1s",
+            "percent": 100,
+            "hz": 0
+          }
+    ]
+}
