@@ -1,0 +1,24 @@
+{
+  "555": {
+    "percentToQualify": 66,
+    "records": [],
+    "verifier": {
+      "verification": "https://www.youtube.com/watch?v=KDjwz-Lt-Qo",
+      "verifier": "InsaneI"
+    }
+  },
+  "1234": {
+    "percentToQualify": 66,
+    "records": [],
+    "verifier": {
+      "verification": "https://www.youtube.com/watch?v=mRt8bPWD38I",
+      "verifier": "iIiViRuZiIi"
+    }
+  },
+  "1980": {
+    "percentToQualify": 66,
+    "records": [],
+    "verifier": {
+      "verification": "https://www.youtube.com/watch?v=zooG6QkOAwE",
+      "verifier": "Paton"
+    }
