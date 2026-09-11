@@ -153,7 +153,7 @@ export default {
                     </table>
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
-                    <p>(ノಠ益ಠ)ノ彡┻━┻</p>
+                    <p>(ãƒŽà² ç›Šà² )ãƒŽå½¡â”»â”â”»</p>
                 </div>
             </div>
             <div class="meta-container">
@@ -256,7 +256,7 @@ export default {
             const items = this.demonList.map((name, idx) => {
                 const raw = (typeof name === 'string') ? name.trim() : name;
                 // strip any leading dashes/spaces from the displayed name (this prevents "- -name" when rank already shows '-')
-                const isBench = (typeof raw === 'string' && raw.startsWith('-') && raw.toLowerCase() !== '-critical error-' && raw.toLowerCase() !== '-à la belle étoile-');
+                const isBench = (typeof raw === 'string' && raw.startsWith('-') && raw.toLowerCase() !== '-critical error-' && raw.toLowerCase() !== '-Ã  la belle Ã©toile-');
                 const displayName = isBench ? raw.replace(/^[-\s]+/, '') : raw;
                 return { name: displayName, index: idx, isBenchmark: isBench, rawName: raw };
             });
@@ -282,8 +282,8 @@ export default {
 
             const items = this.demonList.map((name, idx) => {
                 const raw = (typeof name === 'string') ? name.trim() : name;
-                const isLegacy = (typeof raw === 'string' && raw.startsWith('-') && !raw.toLowerCase().startsWith('-critical error') && !raw.toLowerCase().startsWith('-à la belle étoile'));
-                const isBench = (typeof raw === 'string' && raw.startsWith('-') && !isLegacy && raw.toLowerCase() !== '-critical error-' && raw.toLowerCase() !== '-à la belle étoile-');
+                const isLegacy = (typeof raw === 'string' && raw.startsWith('-') && !raw.toLowerCase().startsWith('-critical error') && !raw.toLowerCase().startsWith('-Ã  la belle Ã©toile'));
+                const isBench = (typeof raw === 'string' && raw.startsWith('-') && !isLegacy && raw.toLowerCase() !== '-critical error-' && raw.toLowerCase() !== '-Ã  la belle Ã©toile-');
                 // strip any leading dashes/spaces for list display to avoid duplicate dash when rank cell shows '-'
                 const displayName = (isBench || isLegacy) ? raw.replace(/^[-\s]+/, '') : raw;
                 return { name: displayName, index: idx, isBenchmark: isBench, isLegacy: isLegacy, rawName: raw, isLegacySeparator: false };
